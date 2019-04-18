@@ -348,7 +348,7 @@ caret::confusionMatrix(data=as.factor(boost.predDir), reference = test_tbl$Churn
 ```
 
 
-ROC and AUC of models
+#ROC and AUC of models
 
 ```{r}
 library(ROCR)
@@ -386,7 +386,7 @@ legend(x = "bottomright",
 ```
 
 
-The cost function to determine the thresholds.
+#The cost function to determine the thresholds.
 
 Assumptions
 1. The cost of a customer churn = $300
